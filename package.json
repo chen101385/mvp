@@ -1,0 +1,40 @@
+{
+  "name": "hrsf87-mvp",
+  "version": "1.0.0",
+  "description": "What's Your Face",
+  "main": "src/index.js",
+  "scripts": {
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chen101385/hrsf87-mvp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chen101385/hrsf87-mvp/issues"
+  },
+  "homepage": "https://github.com/chen101385/hrsf87-mvp#readme",
+  "dependencies": {
+    "angular": "^1.6.7",
+    "app-module-path": "^2.2.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.16.2",
+    "file-system": "^2.2.2",
+    "html-webpack-plugin": "^2.30.1",
+    "mongoose": "^5.0.0-rc2",
+    "node": "^9.3.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "request": "^2.83.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0"
+  }
+}

@@ -19,26 +19,46 @@ Once the project moves into development, the press release can be used as a touc
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
 
+  Name: What's Your Face
+
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  
+  This market is for any program/community that struggles to learn each others' names.  
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  
+  This product makes learning peoples' names easy by taking advantage of one's innate facial recognition abilities.  By combining visual recognition patterns with 'fun-fact' hints, the user will be able to forge a strong 'name-face' association that will persist into the future.
 
 ## Problem ##
   > Describe the problem your product solves.
 
+  For most, learning new names can be a difficult process that can turn social events into a stressful and awkward experience.
+
 ## Solution ##
   > Describe how your product elegantly solves the problem.
+
+  Whether you are networking at a social event or attempting to build or join a community, the ability to learn names quickly will give you a competitive advantage in leveraging potential opportunities that arise from your new relationships.
+
+
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
 
+  "Never be left with just a face in memory ever again!"
+
 ## How to Get Started ##
   > Describe how easy it is to get started.
+
+  Just take a picture of a person you want to remember (or source a photo from FB/LinkedIn) and write a few fun facts that you remember from connecting with him/her.
 
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
 
+  "Wowzers!  I can now fully leverage all of the potential opportunities for synergy within my collective consciousness community!  Thank you What's Your Face!"
+
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+
+  "Check out our app!"
