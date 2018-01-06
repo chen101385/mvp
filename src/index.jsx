@@ -39,6 +39,7 @@ class App extends React.Component {
         console.log('this is profileObj', profileObj)
 
         $.post({
+            //always write out full URLs on client-side
             url: "http://localhost:3000/profile",
             contentType: 'application/json',
             data: JSON.stringify(profileObj),

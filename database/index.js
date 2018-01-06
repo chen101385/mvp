@@ -9,14 +9,15 @@
 
 var mongoose = require('mongoose');
 
+//can specify the database here
 mongoose.connect('mongodb://localhost/test');
 
-var db = mongoose.connection;
+// var db = mongoose.connection;
 
-db.on('error', console.error.bind(console, 'connection error:'));
-db.once('open', function() {
-  console.log('We\'re in business!')
-});
+// db.on('error', console.error.bind(console, 'connection error:'));
+// db.once('open', function() {
+//   console.log('We\'re in business!')
+// });
 
 var profileSchema = mongoose.Schema({
     id: Number,
@@ -29,8 +30,9 @@ var profileSchema = mongoose.Schema({
     hint4: String
 });
 
-//profile is constructor function 
-var Profile = mongoose.model('Profile', profileSchema);
+//profile is constructor function for creating documents
+  //argument 1: collection name; will be pluralized when referenced in the database;  (i.e. profiles)
+var Profile = mongoose.model('profile', profileSchema);
 
 // var testProfile = new Profile({
 //     id: 1,
@@ -84,6 +86,8 @@ const fetchProfiles = (callback) => {
 }
 //CLEAR DB CODE
 // Profile.find().remove().exec()
+
+Profile.remove({id: "panda"}) 
 
 module.exports = {
     saveProfile,

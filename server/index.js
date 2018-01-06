@@ -5,11 +5,13 @@ var path = require('path');
 var fs = require('fs');
 var database = require('../database');
 
-// '/' route is the default/root (i.e. index.html)
+// [OPTIONAL] '/' route is the default/root (i.e. index.html)
   //app.use or app.get/post -->  always include a ROUTE!
-app.use('/', express.static(path.join(__dirname, '../src/dist')));
+app.use(express.static(path.join(__dirname, '../src/dist')));
 
 //defaults @ type: application/json
+  //automatically parses req.body
+  //sends data all-at-once; no more listening for data/chunk
 app.use(bodyParser.json());
 
 
